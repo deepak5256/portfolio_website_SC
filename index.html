@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Your<span>Name</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="typing-animation">Hi, I'm <span class="highlight">Your Name</span></h1>
+                    <p class="subtitle">Your Profession | Your Specialization</p>
+                    <p>Passionate about creating innovative solutions and leveraging technology to solve real-world problems.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Research Papers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images/profile.jpg" alt="Your Name" class="profile-img">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down" onclick="scrollToSection('about')">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm <span class="highlight">Your Name</span></h3>
+                    <p>I'm a passionate developer/student/researcher with expertise in various technologies and a strong foundation in computer science principles.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <strong>Email:</strong>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Location:</strong>
+                            <span>Your City, Country</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Education:</strong>
+                            <span>Your Degree at Your University</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Interests:</strong>
+                            <span>Technology, Research, Innovation</span>
+                        </div>
+                    </div>
+                    
+                    <p>I enjoy working on challenging projects that push my boundaries and allow me to learn new technologies. My goal is to contribute to meaningful projects that make a positive impact.</p>
+                    
+                    <div class="about-actions">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/profile.jpg" alt="Your Name">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I work with</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Science</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Data Visualization</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Deep Learning</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Frameworks</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>TensorFlow</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Django</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Tableau</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <p>My academic journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2025</span>
+                        <h3>Master of Computer Applications - MCA</h3>
+                        <p class="institution">Your University Name</p>
+                        <p>Specialization in Data Science and Machine Learning. Relevant coursework includes Advanced Algorithms, Machine Learning, Big Data Analytics, and Cloud Computing.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2023</span>
+                        <h3>Bachelor of Science</h3>
+                        <p class="institution">Your Previous University</p>
+                        <p>Major in Computer Science, Mathematics, and Geology. Developed strong foundation in programming, algorithms, and analytical thinking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+                <p>Some of my recent work</p>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="ml">ML/AI</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/3498db/ffffff" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/2ecc71/ffffff" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Water Quality Prediction</h3>
+                        <p>Machine learning system that predicts water quality using various parameters and provides insights through an interactive dashboard.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/9b59b6/ffffff" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sales Forecasting System</h3>
+                        <p>Deep learning model for retail sales prediction using LSTM networks with feature engineering and hyperparameter optimization.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">LSTM</span>
+                            <span class="tag">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Papers Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-title">
+                <h2>Research Papers</h2>
+                <p>My academic publications</p>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="research-content">
+                        <span class="research-status accepted">Published</span>
+                        <h3>Land Use Dynamics and Challenges in Smart Cities</h3>
+                        <p class="research-authors">Co-authors: Dr. John Doe, Jane Smith</p>
+                        <p class="research-conference">International Conference on Sustainable Development 2023</p>
+                        <p>Analysis of temporal and spatial patterns in urban development and their environmental impacts using machine learning techniques.</p>
+                        <a href="#" class="research-link">View Paper <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="research-content">
+                        <span class="research-status review">Under Review</span>
+                        <h3>Diabetes Prediction with K-Nearest Neighbors Algorithm</h3>
+                        <p class="research-authors">Co-authors: Alex Johnson, Maria Garcia</p>
+                        <p class="research-conference">Submitted to IEEE Transactions</p>
+                        <p>Novel approach to diabetes prediction using KNN algorithm with normalization techniques and feature selection.</p>
+                        <a href="#" class="research-link">View Abstract <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="research-content">
+                        <span class="research-status completed">Completed</span>
+                        <h3>UrbanChronaSphere: Spatio-Temporal Dynamics</h3>
+                        <p class="research-authors">Co-authors: Dr. John Doe, Jane Smith</p>
+                        <p class="research-conference">Research Project - University Name</p>
+                        <p>Comprehensive study of urban growth patterns in smart cities using deep learning and spatial analysis.</p>
+                        <a href="#" class="research-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+                <p>My professional certifications</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <i class="fab fa-python"></i>
+                        <div class="certification-info">
+                            <h3>Python Programming</h3>
+                            <span class="certification-issuer">HackerRank</span>
+                        </div>
+                    </div>
+                    <p>Advanced Python programming concepts including OOP, data structures, and algorithms.</p>
+                    <div class="certification-footer">
+                        <span class="certification-date">Issued: Jan 2023</span>
+                        <a href="#" class="certification-link">View Credential</a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <i class="fas fa-database"></i>
+                        <div class="certification-info">
+                            <h3>Data Visualization</h3>
+                            <span class="certification-issuer">Tata Group</span>
+                        </div>
+                    </div>
+                    <p>Empowering Business with Effective Insights through advanced data visualization techniques.</p>
+                    <div class="certification-footer">
+                        <span class="certification-date">Issued: Mar 2023</span>
+                        <a href="#" class="certification-link">View Credential</a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <i class="fas fa-brain"></i>
+                        <div class="certification-info">
+                            <h3>Machine Learning</h3>
+                            <span class="certification-issuer">Coursera</span>
+                        </div>
+                    </div>
+                    <p>Comprehensive machine learning course covering supervised and unsupervised learning algorithms.</p>
+                    <div class="certification-footer">
+                        <span class="certification-date">Issued: May 2023</span>
+                        <a href="#" class="certification-link">View Credential</a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <div class="certification-info">
+                            <h3>Data Analytics</h3>
+                            <span class="certification-issuer">Quantium</span>
+                        </div>
+                    </div>
+                    <p>Job simulation focusing on real-world data analytics problems and business insights.</p>
+                    <div class="certification-footer">
+                        <span class="certification-date">Issued: Jul 2023</span>
+                        <a href="#" class="certification-link">View Credential</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Let's work together</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's talk about everything!</h3>
+                    <p>Feel free to get in touch with me. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <span>+1 234 567 8900</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <span>your.email@example.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <span>Your City, Country</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Your Name</h3>
+                    <p>Passionate developer and researcher creating innovative solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
